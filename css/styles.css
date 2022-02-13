@@ -20,7 +20,7 @@ body {
   font-family: var(--main-font);
   font-style: normal;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-dark-txt);
 }
@@ -56,13 +56,12 @@ body {
 .menu-link {
   color: inherit;
 }
-
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent);
 }
 /* Телефон и почта */
-.connect-list .roof-mail-link,
+.roof-mail-link,
 .roof-phone-link {
   font-family: inherit;
   font-weight: 500;
@@ -98,9 +97,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--lihgt-txt);
   background-color: var(--accent);
@@ -152,7 +148,6 @@ body {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -162,6 +157,14 @@ body {
 .cellar-mail-link,
 .cellar-phone-link {
   color: #ffffff60;
+}
+.map-link:hover,
+.map-link:focus,
+.cellar-mail-link:hover,
+.cellar-mail-link:focus,
+.cellar-phone-link:hover,
+.cellar-phone-link:focus {
+  color: var(--accent);
 }
 
 /* Portfolio */
@@ -183,6 +186,7 @@ body {
   color: var(--lihgt-txt);
   background-color: var(--accent);
 }
+/* Main project */
 .project-subtitle {
   font-weight: 700;
   font-size: 18px;
