@@ -1,0 +1,165 @@
+:root {
+  /* Основные шрифты */
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  /* Цвет текста светлая тема */
+  --main-dark-txt: #212121;
+  --secondary-dark-txt: #757575;
+  --dark-txt: #000;
+  /* Цвет текста темная тема */
+  --lihgt-txt: #ffffff;
+  /* Цвет акцента */
+  --accent: #2196f3;
+  /* Цвет фона светлая тема */
+
+  /* Цвет фона темная тема */
+  --dark-bg: #2f303a;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: var(--main-dark-txt);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.current {
+  color: var(--accent);
+}
+/* Header */
+/* Логотип */
+.logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent);
+  text-decoration: none;
+}
+.logo-black {
+  color: var(--dark-txt);
+}
+/* Меню навигации */
+.menu-list {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-dark-txt);
+}
+.menu-link {
+  color: inherit;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent);
+}
+/* Телефон и почта */
+.connect-list .roof-mail-link,
+.roof-phone-link {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-dark-txt);
+}
+.roof-mail-link:hover,
+.roof-mail-link:focus,
+.roof-phone-link:hover,
+.roof-phone-link:focus {
+  color: var(--accent);
+}
+/* Шапка Hero */
+.hero {
+  background-color: var(--dark-bg);
+}
+/* Заголовок */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--lihgt-txt);
+}
+/* Кнопка */
+.hero-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--lihgt-txt);
+  background-color: var(--accent);
+  cursor: pointer;
+}
+/* Наши преимущества */
+.feature-subtitle {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--main-dark-txt);
+}
+.feature-txt {
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--secondary-dark-txt);
+}
+/* Чем мы занимаемся */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--main-dark-txt);
+}
+/* Наша команда */
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--main-dark-txt);
+}
+.team-txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--secondary-dark-txt);
+}
+/* Footer */
+.cellar {
+  background-color: var(--dark-bg);
+}
+.logo-white {
+  color: var(--lihgt-txt);
+}
+.map-link,
+.cellar-mail-link,
+.cellar-phone-link {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.map-link {
+  color: var(--lihgt-txt);
+}
+.cellar-mail-link,
+.cellar-phone-link {
+  color: #ffffff60;
+}
