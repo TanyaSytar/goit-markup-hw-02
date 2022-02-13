@@ -163,3 +163,35 @@ body {
 .cellar-phone-link {
   color: #ffffff60;
 }
+
+/* Portfolio */
+/* Фильтры */
+.filters-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-dark-txt);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+  color: var(--lihgt-txt);
+  background-color: var(--accent);
+}
+.project-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-dark-txt);
+}
