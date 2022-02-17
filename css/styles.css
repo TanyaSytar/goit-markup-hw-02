@@ -18,7 +18,6 @@
 
 body {
   font-family: var(--main-font);
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -93,7 +92,6 @@ body {
 /* Кнопка */
 .hero-btn {
   font-family: inherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -104,13 +102,13 @@ body {
 }
 /* Наши преимущества */
 .feature-subtitle {
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-dark-txt);
 }
 .feature-txt {
-  font-weight: 400;
   line-height: 1.71;
   color: var(--secondary-dark-txt);
 }
@@ -119,6 +117,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 00.03em;
   text-align: center;
   color: var(--main-dark-txt);
 }
@@ -130,7 +129,6 @@ body {
   color: var(--main-dark-txt);
 }
 .team-txt {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-dark-txt);
@@ -147,7 +145,6 @@ body {
 .cellar-phone-link {
   font-family: inherit;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -171,7 +168,6 @@ body {
 /* Фильтры */
 .filters-btn {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -192,9 +188,9 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--main-dark-txt);
 }
 .project-txt {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-dark-txt);
